@@ -2,9 +2,11 @@
   "name": "my-app",
   "version": "0.0.1",
   "description": "",
-  "main": "server.js",
+  "main": "compiled/server/index.js",
   "scripts": {
-    "start": "gulp && node server.js"
+    "start": "gulp && node compiled/server/index.js",
+    "server": "gulp server && node compiled/server/index.js",
+    "client": "gulp client && node compiled/server/index.js"
   },
   "license": "ISC",
   "dependencies": {
