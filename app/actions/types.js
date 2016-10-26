@@ -1,0 +1,1 @@
+export const UPDATE_USERTEXT = 'UPDATE_USERTEXT';
