@@ -1,8 +1,12 @@
 import mongoose from 'mongoose';
 
 let TestSchema = new mongoose.Schema({
-  question: {
+  type: {
     type: String,
+    required: true
+  },
+  meta: {
+    type: mongoose.Schema.Types.Mixed,
     required: true
   }
 });

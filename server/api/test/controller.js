@@ -17,8 +17,9 @@ let controller = {
       if(err) { return handleError(res, err); }
       res.status(200).send(tests.map((test) => {
         return {
-          question: test.question,
-          id: test.id
+          type: test.type,
+          id: test.id,
+          meta: test.meta
         };
       }));
     });
@@ -29,8 +30,9 @@ let controller = {
       if(err) { return handleError(res, err); }
       if(test) {
         return res.status(200).send({
-          question: test.question,
-          id: test.id
+          type: test.type,
+          id: test.id,
+          meta: test.meta
         });
       } else {
         return handleNotFound(res);
