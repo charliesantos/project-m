@@ -5,6 +5,7 @@ import reducers from './reducers';
 import AppContainer from './containers/AppContainer';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { createStore, applyMiddleware } from 'redux';
 
 let store = createStore(
@@ -14,7 +15,9 @@ let store = createStore(
 
 render(
   <Provider store={store}>
-    <AppContainer />
+    <MuiThemeProvider>
+      <AppContainer />
+    </MuiThemeProvider>
   </Provider>,
   document.getElementById('root')
 );
