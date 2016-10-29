@@ -1,18 +1,32 @@
 import React, { Component, PropTypes } from 'react';
 import Paper from 'material-ui/Paper';
 import FlatButton from 'material-ui/FlatButton';
-import config from '../config';
 
 class Header extends Component {
   render() {
+    let buttons = [];
+    if(this.props.isPractice) {
+      buttons.push(<FlatButton className='header-link' label='Summary'/>);
+      buttons.push(<FlatButton className='header-link' label='Your Test'/>);
+      buttons.push(<FlatButton className='header-link' label='About Me'/>);
+      buttons.push(<FlatButton className='header-link' label='Home'/>);
+    } else {
+      buttons.push(<FlatButton className='header-link' label='About'/>);
+      buttons.push(<FlatButton className='header-link' label='Courses'/>);
+      buttons.push(<FlatButton className='header-link' label='Contact'/>);
+    }
+    let headerClass = 'header' + (this.props.isPractice ? ' testmode' : '');
     return (
-      <div className='header'>
-        <Paper className='paper' zDepth={config.paper.depth}>
-          <div className='logo'></div>
-          <FlatButton className='company-name' label='Global Workforce Assessment'/>
-          <FlatButton className='header-link' label='About'/>
-          <FlatButton className='header-link' label='Courses'/>
-          <FlatButton className='header-link' label='Contact'/>
+      <div className={headerClass}>
+        <Paper className='paper' zDepth={2}>
+          <div className='menu'>
+            <div className='logo'></div>
+            <FlatButton className='company-name' label='Global Workforce Assessment'/>
+            { buttons }
+          </div>
+          <div className='timer-bar'>
+            <div className='timer'>{'Time Remaining: 00:30:00'}</div>
+          </div>
         </Paper>
       </div>
     );

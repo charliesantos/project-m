@@ -24,6 +24,10 @@ module.exports = {
     src: srcClient + '/images/*.*',
     dest: destClient + '/images/'
   },
+  res: {
+    src: srcClient + '/res/*.*',
+    dest: destClient + '/res/'
+  },
   server: {
     src: 'server/**/*.js',
     dest: 'compiled/server'
