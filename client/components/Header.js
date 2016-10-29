@@ -8,7 +8,7 @@ class Header extends Component {
     if(this.props.isPractice) {
       buttons.push(<FlatButton className='header-link' label='Summary'/>);
       buttons.push(<FlatButton className='header-link' label='Your Test'/>);
-      buttons.push(<FlatButton className='header-link' label='About Me'/>);
+      buttons.push(<FlatButton className='header-link' label='My Profile'/>);
       buttons.push(<FlatButton className='header-link' label='Home'/>);
     } else {
       buttons.push(<FlatButton className='header-link' label='About'/>);
@@ -21,7 +21,10 @@ class Header extends Component {
         <Paper className='paper' zDepth={2}>
           <div className='menu'>
             <div className='logo'></div>
-            <FlatButton className='company-name' label='Global Workforce Assessment'/>
+            <FlatButton
+              onClick={this.props.onLogoClick}
+              className='company-name'
+              label='Global Workforce Assessment'/>
             { buttons }
           </div>
           <div className='timer-bar'>

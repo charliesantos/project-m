@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import Header from '../components/Header';
+import { browserHistory } from 'react-router';
 
 const mapStateToProps = (state) => {
   return {
@@ -7,8 +8,17 @@ const mapStateToProps = (state) => {
   };
 };
 
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onLogoClick: () => {
+      browserHistory.push('/');
+    }
+  };
+};
+
 const HeaderContainer = connect(
-  mapStateToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(Header);
 
 export default HeaderContainer;

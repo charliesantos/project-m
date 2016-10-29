@@ -2,12 +2,82 @@
   position absolute
   width 100%
 
-  .paper
+  .paper-test-info
+    position absolute
+    right 20px
+    top 20px
+    width 300px
+    height 100px
+    padding-top 14px
+    padding-left 14px
+
+    .info
+      display table-row
+      height 25px
+
+      .label, .value
+        display table-cell
+
+      .label
+        width 60px
+
+  .paper-progress-info
+    position absolute
+    right 20px
+    top 140px
+    width 300px
+    height 75px
+    padding-top 14px
+    padding-left 14px
+
+    .info
+      display table-row
+      height 25px
+
+      .label, .value
+        display table-cell
+
+      .label
+        width 165px
+
+  .paper-question
     position absolute
     height 350px
-    width 600px
+    width calc(100% \- 360px)
     top 20px
     left 20px
+
+    .question-area
+      position absolute
+      top 0px
+      bottom 50px
+      width 100%
+
+      .question-number
+        position absolute
+        top 30px
+        left 30px
+
+      .question-title
+        letter-spacing 1px
+        margin 30px 30px 0px 58px
+
+      .choices
+        margin 20px 30px 0px 58px
+
+        .radio-choice
+          margin-bottom 5px
+
+          > div > label
+            letter-spacing 1px
+
+          &.none
+            display none !important
+
+    .loading-msg
+      position absolute
+      top 10px
+      left 10px
 
     .footer
       position absolute
