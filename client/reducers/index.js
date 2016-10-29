@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import thing from './thing';
+import header from './header';
+import practice from './practice';
 
 const reducers = combineReducers({
-  thing
+  header,
+  practice
 });
 
 export default reducers;

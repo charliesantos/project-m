@@ -18,7 +18,8 @@ class Home extends Component {
           <div className='company-name'>{'Global Workforce Assessment'}</div>
           <div className='company-slogan'>{'Assessing workforce competencies. Anytime. Anywhere.'}</div>
           <div className='get-started'><FlatButton
-            label='GET STARTED'
+            onClick={this.props.onPracticeClick}
+            label='Practice Test'
             style={{backgroundColor: '#26a69a'}}
           /></div>
         </div>

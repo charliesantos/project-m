@@ -1,0 +1,292 @@
+[
+  {
+    "question": "\nHow many peripheral devices can a master Bluetooth device communicate with in a piconet?\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. 1",
+      "b. 2",
+      "c. 5",
+      "d. 7"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "\nThe IDE interface is usually installed on the motherboard in which of the following? \t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Expansion slot",
+      "b. North Bridge",
+      "c. PCI bus",
+      "d. South Bridge"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "\nThe North Bridge controls the processor, memory, PCI Bus, Level 2 cache and all AGP activities.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nIf a new hard drive is installed in an old computer and the system does not register the total capacity of the hard drive, what is the most likely cause?\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. The hard drive is malfunctioning",
+      "b. The hard drive is not read correctly by the BIOS.",
+      "c. The hard drive is not compatible with the computer.",
+      "d. The computer motherboard is damaged."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nSoftware obtained without informed consent is generally known as __________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Computer Virus",
+      "b. Trojan Horse",
+      "c. Malware",
+      "d. Dishonest Adware"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "\nThe clock speed of the AGPx8 expansion slot is 266MHz.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nMost computers today use an enhanced version of IDE called ___________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. AIDE",
+      "b. EIDE",
+      "c. UIDE",
+      "d. IIDE"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nDDR SDRAM, with a certain clock frequency, achieves nearly _______________ the bandwith of a single date rate SDRAM running at the same clock frequency.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. 2 times",
+      "b. 3 times",
+      "c. 4 times",
+      "d. 5 times"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nWhich of the following wireless devices should be used to connect a printer, keyboard and mouse to a laptop?\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. RS-232 ",
+      "b. IrDA",
+      "c. Bluetooth",
+      "d. USB"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "\nThe primary connection method for an internal laptop hard drive.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. PCRAM",
+      "b. PDL",
+      "c. PATA ",
+      "d. PSTN"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "\nWhat anti-virus software updates are called.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Fixes",
+      "b. Definitions",
+      "c. Upgrades",
+      "d. Retrofits"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nSATA drives use a ___________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Thick 8 pin data cable",
+      "b. Thick 7 pin data cable",
+      "c. Thin 8 pin data cable.",
+      "d. Thin 7 pin data cable   "
+    ],
+    "answer": 3
+  },
+  {
+    "question": "\nIf a new IDE hard drive is not recognized, first check the __________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Jumper Settings  ",
+      "b. Basic Input/Output System",
+      "c. Driver",
+      "d. Cables"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nIDE drives use a __________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. 10 pin ribbon cable.",
+      "b. 20 pin ribbon cable",
+      "c. Thin 7 pin data cable",
+      "d. 40 pin ribbon cable   "
+    ],
+    "answer": 3
+  },
+  {
+    "question": "\nBIOS is a program that is made accessible to the microprocessor on an ___________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. EPROM",
+      "b. EDI",
+      "c. EFTAM",
+      "d. EPOP"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nWhat should be done if a second hard disk drive is not being recognized by a computer system after finding that all the cable connections are in place?\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Check to see if the volumes or logical drives have been formatted",
+      "b. Check to see if the hard disk drive has been formatted",
+      "c. Reinstall the RAM",
+      "d. Check to see if the second hard drive is detected by the BIOS"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "\nA laptop should be used on a soft surface to prevent overheating.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nBluetooth technology can transmit up to what distance?  \t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. 10 Feet",
+      "b. 20 Feet",
+      "c. 30 Feet",
+      "d. 40 Feet"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "\nWhat is the most common video RAM technology on laptop video cards? \t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. RAM",
+      "b. DDR SDRAM  ",
+      "c. SIMM",
+      "d. DRAM"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nIf USB ports are not working with any USB devices, which should you do first?  \t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Test the USB devices by connecting them to a different computer",
+      "b. Look at the BIOS to confirm that USB functionality is enabled.  ",
+      "c. Buy new USB wires ",
+      "d. Check the jumper settings"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nA  __________________ can cause a computer to reboot.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. CPU Overheating    ",
+      "b. New hardware installation",
+      "c. Memory overload",
+      "d. Accidental unplugging"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nThe best way to secure a network from crackers is ____________________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Change the default SSID",
+      "b. Broadcast the SSID in cleartext",
+      "c. Use WI-FI protected access technology  ",
+      "d. Lower the signal strength"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "\nThe output from a power supply is rated as ____________________. \t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Watts",
+      "b. Hertz",
+      "c. Voltage",
+      "d. Ohms"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nThe amount of time that RAM takes to write data or to read it once a request has been received from the processor is called ____________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Access Time  ",
+      "b. RAM Speed",
+      "c. Process Time",
+      "d. RAM Process Time"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nA CD-ROM has data encoded in a spiral track __________________.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Beginning at the outermost edge and ending at the center",
+      "b. Beginning at the center and ending at the outermost edge"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nWhich type of PC Card slot can take all PC Card types?\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Type I",
+      "b. Type II",
+      "c. Type III",
+      "d. Express Card"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "\nThe principle by which data is read from a CD-ROM.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. CLV",
+      "b. CALEA",
+      "c. CAP",
+      "d. CMTS"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nMost computers today use either a DDR or DDR2 type of memory for their main system memory.\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "\nIf a computer with Windows XP will not boot up property after upgrading a video driver you should first ________________?\t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. Use the Last Known Good Configuration feature",
+      "b. Roll Back the driver after starting in Safe Mode  ",
+      "c. Use the Recovery Console feature",
+      "d. Upgrade the operating system."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "\nWhat most likely explains a keyboard not working properly, after upgrading the memory, where the touchpad is working? \t\t\t\t\t\t\t\t\t\t",
+    "choices": [
+      "a. The keyboard is malfunctioning",
+      "b. The RAM is not installed properly.",
+      "c. The RAM is not compatible.",
+      "d. The keyboard connector is not seated properly.   "
+    ],
+    "answer": 3
+  }
+]
