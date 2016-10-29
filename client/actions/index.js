@@ -28,8 +28,11 @@ export const updateQIndex = (index) => {
 
 export const fetchPracticeQuestions = () => {
   return (dispatch) => {
-    $.get('/res/questions.json', (data) => {
-      dispatch(updatePracticeQuestions(data));
+    $.ajax({
+      url: '/res/questions.json',
+      success: function(data, status, res) {
+        res.status === 200 && dispatch(updatePracticeQuestions(JSON.parse(res.responseText)));
+      }
     });
   };
 };
